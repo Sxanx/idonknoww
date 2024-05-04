@@ -150,7 +150,7 @@ body {
 
 .container .slide2 .bottom-contact span {
     color: #fffffe;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -173,21 +173,90 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+    .container .slide2 .nav-box .box {
+        width: 200px;
+        margin: 10px;
+    }
+    .container .slide2 .nav-box {
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+    .container .slide2 .bottom-contact span {
+        font-size: 60px;
+    }
 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
+    .container .slide2 .nav-box .box {
+        justify-content: flex-end;
+        flex-direction: row-reverse;        
+    }
+    .container .slide2 .bottom-contact .youtube {
+        width: 55px;
+    }
+    .container .slide2 .bottom-contact span {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+    .container .slide2 .nav-box .box {
+        margin: 10px;
+    }
+    .container .slide2 .nav-box {
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+    .container .slide2 .bottom-contact span {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
+    .container .slide img.profile {
+        width: 30%;
+    }
+    .container .slide span {
+        font-size: 40px;
+    }
+    .container .slide p {
+        font-size: 20px;
+    }
+    .container .slide2 .nav-box .box {
+        margin: 10px;
+    }
+    .container .slide2 .nav-box {
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+    .container .slide2 .bottom-contact span {
+        font-size: 45px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
-
+    .container .slide img.profile {
+        width: 40%;
+    }
+    .container .slide span {
+        font-size: 45px;
+    }
+    .container .slide p {
+        font-size: 25px;
+    }
+    .container .slide2 .nav-box .box {
+        margin: 12px;
+        width: 120px;
+    }
+    .container .slide2 .nav-box {
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+    .container .slide2 .bottom-contact span {
+        font-size: 40px;
+    }
+    .container .slide2 .bottom-contact .youtube {
+        width: 50px;
+    }
 }
