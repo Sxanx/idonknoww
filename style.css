@@ -99,12 +99,12 @@ body {
     background-color: #293748;
 }
 
-.container .slide2-hidden {
+.container .slide2.hidden {
     opacity: 0;
     top: 30px;
 }
 
-.container .slide2-show {
+.container .slide2.show {
     animation: box-in 1s linear forwards !important;
 }
 
@@ -247,7 +247,7 @@ body {
     }
     .container .slide2 .nav-box .box {
         margin: 12px;
-        width: 120px;
+        width: 20%;
     }
     .container .slide2 .nav-box {
         justify-content: flex-end;
